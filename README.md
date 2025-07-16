@@ -17,12 +17,6 @@ e-Guru is an AI-powered virtual tutor assistant built using the **Gemini 1.5 Fla
 
 ---
 
-## 📸 Demo Screenshot
-
-> *(Optional: Insert screenshot here)*
-
----
-
 ## 🛠️ Tech Stack
 
 - [Python 3.9+](https://www.python.org/)
