@@ -6,7 +6,7 @@ api_key = st.secrets["GEMINI_API_KEY"]
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
+    model="gemini-2.0-flash",
     google_api_key=api_key,
     temperature=0.7
 )
@@ -88,3 +88,4 @@ if st.session_state.selected_q is not None:
     st.markdown("## 📖 Selected Q&A")
     st.markdown(f"**Question:** {selected['question']}")
     st.markdown(f"**Answer:** {selected['answer']}")
+
